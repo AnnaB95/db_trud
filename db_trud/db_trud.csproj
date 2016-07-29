@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9517494E-A49E-475D-82C9-0F27765BF0E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>db_trud</RootNamespace>
+    <AssemblyName>db_trud</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Choose_Date.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose_Date.Designer.cs">
+      <DependentUpon>Choose_Date.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Educ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Educ.Designer.cs">
+      <DependentUpon>Educ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guests_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guests_Form.Designer.cs">
+      <DependentUpon>Guests_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List_Vacancies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List_Vacancies.Designer.cs">
+      <DependentUpon>List_Vacancies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration_Form.Designer.cs">
+      <DependentUpon>Registration_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Regist_Org_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Regist_Org_Form.Designer.cs">
+      <DependentUpon>Regist_Org_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Regist_Users_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Regist_Users_Form.Designer.cs">
+      <DependentUpon>Regist_Users_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reg_org.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reg_org.Designer.cs">
+      <DependentUpon>Reg_org.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vacanci_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacanci_Form.Designer.cs">
+      <DependentUpon>Vacanci_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Who_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Who_Registration.Designer.cs">
+      <DependentUpon>Who_Registration.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Choose_Date.resx">
+      <DependentUpon>Choose_Date.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Educ.resx">
+      <DependentUpon>Educ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guests_Form.resx">
+      <DependentUpon>Guests_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List_Vacancies.resx">
+      <DependentUpon>List_Vacancies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration_Form.resx">
+      <DependentUpon>Registration_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Regist_Org_Form.resx">
+      <DependentUpon>Regist_Org_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Regist_Users_Form.resx">
+      <DependentUpon>Regist_Users_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reg_org.resx">
+      <DependentUpon>Reg_org.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Vacanci_Form.resx">
+      <DependentUpon>Vacanci_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Who_Registration.resx">
+      <DependentUpon>Who_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w512h5121380476960news.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w128h1281372591957Magnifier2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w128h1281390848140briefcase128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w128h1281390848154collaboration128.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
