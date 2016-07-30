@@ -17,3 +17,4 @@ D:\db\db_trud\db_trud\obj\x86\Debug\db_trud.Reg_org.resources
 D:\db\db_trud\db_trud\obj\x86\Debug\db_trud.Regist_Org_Form.resources
 D:\db\db_trud\db_trud\obj\x86\Debug\db_trud.Vacanci_Form.resources
 D:\db\db_trud\db_trud\obj\x86\Debug\db_trud.List_Vacancies.resources
+D:\db\db_trud\db_trud\obj\x86\Debug\db_trud.Guest_Form_for_Users.resources

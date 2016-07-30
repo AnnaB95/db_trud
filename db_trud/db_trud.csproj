@@ -64,6 +64,12 @@
     <Compile Include="Guests_Form.Designer.cs">
       <DependentUpon>Guests_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Guest_Form_for_Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guest_Form_for_Users.Designer.cs">
+      <DependentUpon>Guest_Form_for_Users.cs</DependentUpon>
+    </Compile>
     <Compile Include="List_Vacancies.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Guests_Form.resx">
       <DependentUpon>Guests_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guest_Form_for_Users.resx">
+      <DependentUpon>Guest_Form_for_Users.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="List_Vacancies.resx">
       <DependentUpon>List_Vacancies.cs</DependentUpon>

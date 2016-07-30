@@ -30,8 +30,12 @@ namespace db_trud
         {
             this.Visible = false;
             Guests_Form form = new Guests_Form();            
-            form.ShowDialog();            
-            this.Close();
+            form.ShowDialog();
+
+            if (reg == 0)
+                this.Close();
+            else
+                this.Visible = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
