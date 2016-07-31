@@ -1455,7 +1455,8 @@ namespace db_trud
                 Choose_Date form1 = new Choose_Date();
                 form1.ShowDialog();
                 cmd.CommandText = "insert into Собеседования values('" + vac + "','" + kod + "','" + date + "','приглашение на собеседование', '0')";
-
+                if (con.State == ConnectionState.Closed)
+                    con.Open();
 
                 cmd.ExecuteNonQuery();
 
@@ -1611,7 +1612,7 @@ namespace db_trud
             {
                 DateTime d = DateTime.Parse(reader[0].ToString().Trim());
 
-                if (d.Date < DateTime.Now.Date)
+                if (d.Date > DateTime.Now.Date)
                 {
                     data1.Rows.Add(reader[0].ToString().Substring(0, reader[0].ToString().IndexOf(' ')), reader[1].ToString().Trim(), reader[2].ToString().Trim());
 

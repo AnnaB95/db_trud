@@ -151,7 +151,7 @@ namespace db_trud
                          int i = 0;
                          for (i = 0; i < dataGridView1.RowCount; i++)
                          {
-                             if (dataGridView1[4, i].Value.ToString() == reader1[2].ToString());
+                             if (dataGridView1[4, i].Value.ToString() == reader1[2].ToString())
                              {
                                  count--; 
                                  dataGridView1.Rows.RemoveAt(i); return;
