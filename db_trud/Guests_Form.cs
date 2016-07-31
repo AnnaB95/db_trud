@@ -45,7 +45,7 @@ namespace db_trud
             }
             else
             {
-                Reg_org form = new Reg_org();
+                Guest_From_for_Org form = new Guest_From_for_Org();
                 form.ShowDialog();
 
             }
